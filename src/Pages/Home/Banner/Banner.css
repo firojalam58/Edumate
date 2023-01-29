@@ -1,0 +1,21 @@
+
+
+.txs{
+    font-size: 60px;
+    padding:10px 100px;
+}
+.txc{
+    color: #fff;
+    background: #0c8b51;
+}
+.txc:hover{
+    background-color: #07294d;
+}
+
+@media only screen and (max-width: 540px) {
+    .txs{
+        font-size: 30px;
+        padding:10px 60px;
+        line-height: 30px;
+    }
+  }

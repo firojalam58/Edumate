@@ -1,0 +1,12 @@
+
+.tcl{
+    color: #07294d;
+    font-size: 20px;
+}
+.tcl:hover{
+    color: #0c8b51;
+}
+
+@media only screen and (max-width: 600px) {
+    
+  }
