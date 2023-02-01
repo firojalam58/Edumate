@@ -3,6 +3,7 @@ import Main from "../../Layout/Main/Main"
 import About from "../../Pages/About/About"
 import Contact from "../../Pages/Contact/Contact"
 import Course from "../../Pages/Course/Course"
+import Dashboard from "../../Pages/Dashboard/Dashboard"
 import Home from "../../Pages/Home/Home"
 import Login from "../../Pages/Login/Login"
 import SignUp from "../../Pages/SignUp/SignUp"
@@ -36,6 +37,11 @@ import SignUp from "../../Pages/SignUp/SignUp"
                 path:'/login',
                 element:<Login></Login>
             },
+           
         ]
-    }
+    },
+    {
+        path:'/dashboard',
+        element:<Dashboard></Dashboard>
+    },
 ])

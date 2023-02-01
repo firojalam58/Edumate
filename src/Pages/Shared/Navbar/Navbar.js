@@ -22,7 +22,11 @@ const Navbar = () => {
 
     {
         user?.uid ?
+        <>
+        <li><Link className="tcl" to="/dashboard">Dashboard</Link></li>
         <li><button className="tcl" onClick={handleLogout}>Logout</button></li>
+        
+        </>
         :
         <>
         <li><Link className="tcl" to="/signup">Signup</Link></li>
